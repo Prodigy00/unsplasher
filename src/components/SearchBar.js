@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 //The search bar only handles form submission
 //It should not handle making decisions based on what was searched
-//The App component can handle that
+//The App component can handle that using (onSearchSubmit(searchQuery))
+
 
 class SearchBar extends Component {
   state = { term: "" };
